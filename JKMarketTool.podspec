@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "JKMarketTool"
-  s.version      = "1.0.1"
+  s.version      = "1.0.4"
   s.summary      = "A iOS marketTool."
 
   # This description is used to generate tags and improve search results.
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "JKMarketTool", "JKMarketTool/**/*.{h,m,a}"
-  s.exclude_files = "Classes/Exclude"
+  #s.exclude_files = "JKMarketTool/**/*.{a}"
 
   # s.public_header_files = "Classes/**/*.h"
 
